@@ -1,6 +1,6 @@
 # ClientTik-Swift-ios
 
-<img src="ClinetTik.JPEG" width="150" height="300">
+<img src="ClinetTik.JPEG" width="800" height="550">
 
 
 ClinetTik is an application that allows you to efficiently search through large numbers of comments
