@@ -15,6 +15,24 @@
 		5923E0612B2472A4007DD9EC /* AppnewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5923E0602B2472A4007DD9EC /* AppnewUITests.swift */; };
 		5923E0632B2472A4007DD9EC /* AppnewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5923E0622B2472A4007DD9EC /* AppnewUITestsLaunchTests.swift */; };
 		5923E0712B24964F007DD9EC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5923E0702B24964F007DD9EC /* Alamofire */; };
+		A1032A2FB09CCF7A4F228109 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1678396679B50239E85012E /* Formatters.swift */; };
+		A11589A58651EA0AF125088D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178F4AB7B817A7D9833D439 /* Theme.swift */; };
+		A11804FDFF362DA6F906E61C /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1368E64104EE0772148561B /* AboutScreen.swift */; };
+		A12E5B20C0D7AD73C7BEA841 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1438231FB4498062373CF57 /* SearchField.swift */; };
+		A138C719D20E86A06836249A /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1247EE9F06ABF3DDFFF92D0 /* Haptics.swift */; };
+		A14EB952550AA8D0390DD89D /* CommentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1327BF2C722F3FCC3D1655E /* CommentModels.swift */; };
+		A1605B1A5333E3D45B8EE0AF /* FetchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE60B2A3A83155163CA2BC /* FetchModel.swift */; };
+		A163B4D95E6909099A4A6155 /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E9BC5103AA169FB8BEEEC /* CommentCard.swift */; };
+		A1706A496129B9CC3491B801 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A177118040B1D3F2699CBB83 /* AvatarView.swift */; };
+		A17C95370A80460505B725AB /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113281F6F878EC15D97BC93 /* ShareSheet.swift */; };
+		A187DF73309184AB98258DDA /* SavedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA104C1BECC66791E1E4C5 /* SavedScreen.swift */; };
+		A18905B480625C46CB392461 /* FetchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1185F7CEBAF9DE728050DCE /* FetchScreen.swift */; };
+		A19D8D1AD6B5C4A099440173 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F74EAEC1267DE70DB804C8 /* ExportService.swift */; };
+		A1A1FEF2F8F80F881533D736 /* TikTokService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1476A1E48F7708F5FF4D9FA /* TikTokService.swift */; };
+		A1ADFB79011521D3E5AAFA4B /* StatTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A179779D39F676860984CAE9 /* StatTile.swift */; };
+		A1B254FB10906092EEBE1E24 /* SavedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144D3A23B6BF8C772A7E85B /* SavedStore.swift */; };
+		A1C926165B173540733CA9EE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17299E48BEAFA76801C2456 /* EmptyState.swift */; };
+		A1D1045F47D592BC3564AC53 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195E463D9BD054FA813B3BC /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +64,24 @@
 		5923E05C2B2472A4007DD9EC /* AppnewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppnewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5923E0602B2472A4007DD9EC /* AppnewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppnewUITests.swift; sourceTree = "<group>"; };
 		5923E0622B2472A4007DD9EC /* AppnewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppnewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A113281F6F878EC15D97BC93 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A1185F7CEBAF9DE728050DCE /* FetchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchScreen.swift; sourceTree = "<group>"; };
+		A1247EE9F06ABF3DDFFF92D0 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		A1327BF2C722F3FCC3D1655E /* CommentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModels.swift; sourceTree = "<group>"; };
+		A1368E64104EE0772148561B /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
+		A13E9BC5103AA169FB8BEEEC /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
+		A1438231FB4498062373CF57 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		A144D3A23B6BF8C772A7E85B /* SavedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStore.swift; sourceTree = "<group>"; };
+		A1476A1E48F7708F5FF4D9FA /* TikTokService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokService.swift; sourceTree = "<group>"; };
+		A1678396679B50239E85012E /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		A17299E48BEAFA76801C2456 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		A177118040B1D3F2699CBB83 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		A178F4AB7B817A7D9833D439 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A179779D39F676860984CAE9 /* StatTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTile.swift; sourceTree = "<group>"; };
+		A195E463D9BD054FA813B3BC /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		A1BA104C1BECC66791E1E4C5 /* SavedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedScreen.swift; sourceTree = "<group>"; };
+		A1BE60B2A3A83155163CA2BC /* FetchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModel.swift; sourceTree = "<group>"; };
+		A1F74EAEC1267DE70DB804C8 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +135,14 @@
 			children = (
 				5923E0442B2472A3007DD9EC /* AppnewApp.swift */,
 				5923E0462B2472A3007DD9EC /* ContentView.swift */,
+				A183791AAA3ABE9C740744D1 /* Core */,
+				A1BF3496F943AF29A54B82CC /* Fetch */,
+				A16B1297070A10A56C12A38E /* Comments */,
+				A19E5061999D03AF3FFF7FDD /* Saved */,
+				A1613CA4D85670D41D2FE7D5 /* About */,
+				A11C122666ED7EC37179C200 /* Export */,
+				A12C3A58E57346BC74160F3E /* Networking */,
+				A1812DCB58C3D39D4152A86B /* Components */,
 				5923E0482B2472A4007DD9EC /* Assets.xcassets */,
 				5923E04A2B2472A4007DD9EC /* Appnew.entitlements */,
 				5923E04B2B2472A4007DD9EC /* Preview Content */,
@@ -129,6 +173,80 @@
 				5923E0622B2472A4007DD9EC /* AppnewUITestsLaunchTests.swift */,
 			);
 			path = AppnewUITests;
+			sourceTree = "<group>";
+		};
+		A11C122666ED7EC37179C200 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				A1F74EAEC1267DE70DB804C8 /* ExportService.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		A12C3A58E57346BC74160F3E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A1476A1E48F7708F5FF4D9FA /* TikTokService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A1613CA4D85670D41D2FE7D5 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				A1368E64104EE0772148561B /* AboutScreen.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		A16B1297070A10A56C12A38E /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				A13E9BC5103AA169FB8BEEEC /* CommentCard.swift */,
+				A1327BF2C722F3FCC3D1655E /* CommentModels.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		A1812DCB58C3D39D4152A86B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A177118040B1D3F2699CBB83 /* AvatarView.swift */,
+				A1438231FB4498062373CF57 /* SearchField.swift */,
+				A179779D39F676860984CAE9 /* StatTile.swift */,
+				A195E463D9BD054FA813B3BC /* ProgressBar.swift */,
+				A17299E48BEAFA76801C2456 /* EmptyState.swift */,
+				A113281F6F878EC15D97BC93 /* ShareSheet.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A183791AAA3ABE9C740744D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A178F4AB7B817A7D9833D439 /* Theme.swift */,
+				A1247EE9F06ABF3DDFFF92D0 /* Haptics.swift */,
+				A1678396679B50239E85012E /* Formatters.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A19E5061999D03AF3FFF7FDD /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA104C1BECC66791E1E4C5 /* SavedScreen.swift */,
+				A144D3A23B6BF8C772A7E85B /* SavedStore.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		A1BF3496F943AF29A54B82CC /* Fetch */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE60B2A3A83155163CA2BC /* FetchModel.swift */,
+				A1185F7CEBAF9DE728050DCE /* FetchScreen.swift */,
+			);
+			path = Fetch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +386,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				5923E0472B2472A3007DD9EC /* ContentView.swift in Sources */,
+				A11589A58651EA0AF125088D /* Theme.swift in Sources */,
+				A138C719D20E86A06836249A /* Haptics.swift in Sources */,
+				A1032A2FB09CCF7A4F228109 /* Formatters.swift in Sources */,
+				A1605B1A5333E3D45B8EE0AF /* FetchModel.swift in Sources */,
+				A18905B480625C46CB392461 /* FetchScreen.swift in Sources */,
+				A163B4D95E6909099A4A6155 /* CommentCard.swift in Sources */,
+				A14EB952550AA8D0390DD89D /* CommentModels.swift in Sources */,
+				A187DF73309184AB98258DDA /* SavedScreen.swift in Sources */,
+				A1B254FB10906092EEBE1E24 /* SavedStore.swift in Sources */,
+				A11804FDFF362DA6F906E61C /* AboutScreen.swift in Sources */,
+				A19D8D1AD6B5C4A099440173 /* ExportService.swift in Sources */,
+				A1A1FEF2F8F80F881533D736 /* TikTokService.swift in Sources */,
+				A1706A496129B9CC3491B801 /* AvatarView.swift in Sources */,
+				A12E5B20C0D7AD73C7BEA841 /* SearchField.swift in Sources */,
+				A1ADFB79011521D3E5AAFA4B /* StatTile.swift in Sources */,
+				A1D1045F47D592BC3564AC53 /* ProgressBar.swift in Sources */,
+				A1C926165B173540733CA9EE /* EmptyState.swift in Sources */,
+				A17C95370A80460505B725AB /* ShareSheet.swift in Sources */,
 				5923E0452B2472A3007DD9EC /* AppnewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +586,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaLaH.Appnew;
 				PRODUCT_NAME = ClientTik;
 				SDKROOT = auto;
@@ -488,7 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaLaH.Appnew;
 				PRODUCT_NAME = ClientTik;
 				SDKROOT = auto;
